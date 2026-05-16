@@ -25,7 +25,7 @@ class Grade
         float avg=(float)sum/n;
         System.out.println("Total: "+sum);
         System.out.println("Average: "+avg);
-        System.out.print("Your performance is ");
+        System.out.print("Remarks: ");
         if(avg>=95){
         System.out.println("Outstanding");
         System.out.println("Your grade is A");
@@ -51,7 +51,7 @@ class Grade
         System.out.println("Your grade is D");
         }
         else if(avg>=35){
-        System.out.println("Need to improve");
+        System.out.println("Needs to be improved");
         System.out.println("Your grade is E");
         }
         else
